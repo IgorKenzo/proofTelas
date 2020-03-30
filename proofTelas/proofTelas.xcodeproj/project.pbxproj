@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0573440724326613005A4013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573440624326613005A4013 /* AppDelegate.swift */; };
+		0573440924326613005A4013 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573440824326613005A4013 /* SceneDelegate.swift */; };
+		0573440B24326613005A4013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573440A24326613005A4013 /* ViewController.swift */; };
+		0573440E24326614005A4013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0573440C24326614005A4013 /* Main.storyboard */; };
+		0573441024326615005A4013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0573440F24326615005A4013 /* Assets.xcassets */; };
+		0573441324326615005A4013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0573441124326615005A4013 /* LaunchScreen.storyboard */; };
+		0573441E24326615005A4013 /* proofTelasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573441D24326615005A4013 /* proofTelasTests.swift */; };
+		0573442924326615005A4013 /* proofTelasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573442824326615005A4013 /* proofTelasUITests.swift */; };
+		0573443724326779005A4013 /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0573443624326779005A4013 /* home.storyboard */; };
+		057344392432712B005A4013 /* config.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057344382432712B005A4013 /* config.storyboard */; };
+		0573443B24328FE9005A4013 /* config2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0573443A24328FE9005A4013 /* config2.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0573441A24326615005A4013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 057343FB24326613005A4013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0573440224326613005A4013;
+			remoteInfo = proofTelas;
+		};
+		0573442524326615005A4013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 057343FB24326613005A4013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0573440224326613005A4013;
+			remoteInfo = proofTelas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0573440324326613005A4013 /* proofTelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proofTelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0573440624326613005A4013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0573440824326613005A4013 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0573440A24326613005A4013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0573440D24326614005A4013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0573440F24326615005A4013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0573441224326615005A4013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0573441424326615005A4013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0573441924326615005A4013 /* proofTelasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proofTelasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0573441D24326615005A4013 /* proofTelasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proofTelasTests.swift; sourceTree = "<group>"; };
+		0573441F24326615005A4013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0573442424326615005A4013 /* proofTelasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proofTelasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0573442824326615005A4013 /* proofTelasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proofTelasUITests.swift; sourceTree = "<group>"; };
+		0573442A24326615005A4013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0573443624326779005A4013 /* home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = home.storyboard; sourceTree = "<group>"; };
+		057344382432712B005A4013 /* config.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = config.storyboard; sourceTree = "<group>"; };
+		0573443A24328FE9005A4013 /* config2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = config2.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0573440024326613005A4013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0573441624326615005A4013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0573442124326615005A4013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057343FA24326613005A4013 = {
+			isa = PBXGroup;
+			children = (
+				0573440524326613005A4013 /* proofTelas */,
+				0573441C24326615005A4013 /* proofTelasTests */,
+				0573442724326615005A4013 /* proofTelasUITests */,
+				0573440424326613005A4013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0573440424326613005A4013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0573440324326613005A4013 /* proofTelas.app */,
+				0573441924326615005A4013 /* proofTelasTests.xctest */,
+				0573442424326615005A4013 /* proofTelasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0573440524326613005A4013 /* proofTelas */ = {
+			isa = PBXGroup;
+			children = (
+				0573440624326613005A4013 /* AppDelegate.swift */,
+				0573440824326613005A4013 /* SceneDelegate.swift */,
+				0573440A24326613005A4013 /* ViewController.swift */,
+				0573440C24326614005A4013 /* Main.storyboard */,
+				0573440F24326615005A4013 /* Assets.xcassets */,
+				0573441124326615005A4013 /* LaunchScreen.storyboard */,
+				0573441424326615005A4013 /* Info.plist */,
+				0573443624326779005A4013 /* home.storyboard */,
+				057344382432712B005A4013 /* config.storyboard */,
+				0573443A24328FE9005A4013 /* config2.storyboard */,
+			);
+			path = proofTelas;
+			sourceTree = "<group>";
+		};
+		0573441C24326615005A4013 /* proofTelasTests */ = {
+			isa = PBXGroup;
+			children = (
+				0573441D24326615005A4013 /* proofTelasTests.swift */,
+				0573441F24326615005A4013 /* Info.plist */,
+			);
+			path = proofTelasTests;
+			sourceTree = "<group>";
+		};
+		0573442724326615005A4013 /* proofTelasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0573442824326615005A4013 /* proofTelasUITests.swift */,
+				0573442A24326615005A4013 /* Info.plist */,
+			);
+			path = proofTelasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0573440224326613005A4013 /* proofTelas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0573442D24326615005A4013 /* Build configuration list for PBXNativeTarget "proofTelas" */;
+			buildPhases = (
+				057343FF24326613005A4013 /* Sources */,
+				0573440024326613005A4013 /* Frameworks */,
+				0573440124326613005A4013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = proofTelas;
+			productName = proofTelas;
+			productReference = 0573440324326613005A4013 /* proofTelas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0573441824326615005A4013 /* proofTelasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0573443024326615005A4013 /* Build configuration list for PBXNativeTarget "proofTelasTests" */;
+			buildPhases = (
+				0573441524326615005A4013 /* Sources */,
+				0573441624326615005A4013 /* Frameworks */,
+				0573441724326615005A4013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0573441B24326615005A4013 /* PBXTargetDependency */,
+			);
+			name = proofTelasTests;
+			productName = proofTelasTests;
+			productReference = 0573441924326615005A4013 /* proofTelasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0573442324326615005A4013 /* proofTelasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0573443324326615005A4013 /* Build configuration list for PBXNativeTarget "proofTelasUITests" */;
+			buildPhases = (
+				0573442024326615005A4013 /* Sources */,
+				0573442124326615005A4013 /* Frameworks */,
+				0573442224326615005A4013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0573442624326615005A4013 /* PBXTargetDependency */,
+			);
+			name = proofTelasUITests;
+			productName = proofTelasUITests;
+			productReference = 0573442424326615005A4013 /* proofTelasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		057343FB24326613005A4013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Igor Miyamoto";
+				TargetAttributes = {
+					0573440224326613005A4013 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					0573441824326615005A4013 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 0573440224326613005A4013;
+					};
+					0573442324326615005A4013 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 0573440224326613005A4013;
+					};
+				};
+			};
+			buildConfigurationList = 057343FE24326613005A4013 /* Build configuration list for PBXProject "proofTelas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 057343FA24326613005A4013;
+			productRefGroup = 0573440424326613005A4013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0573440224326613005A4013 /* proofTelas */,
+				0573441824326615005A4013 /* proofTelasTests */,
+				0573442324326615005A4013 /* proofTelasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0573440124326613005A4013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057344392432712B005A4013 /* config.storyboard in Resources */,
+				0573441324326615005A4013 /* LaunchScreen.storyboard in Resources */,
+				0573441024326615005A4013 /* Assets.xcassets in Resources */,
+				0573443B24328FE9005A4013 /* config2.storyboard in Resources */,
+				0573440E24326614005A4013 /* Main.storyboard in Resources */,
+				0573443724326779005A4013 /* home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0573441724326615005A4013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0573442224326615005A4013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		057343FF24326613005A4013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0573440B24326613005A4013 /* ViewController.swift in Sources */,
+				0573440724326613005A4013 /* AppDelegate.swift in Sources */,
+				0573440924326613005A4013 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0573441524326615005A4013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0573441E24326615005A4013 /* proofTelasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0573442024326615005A4013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0573442924326615005A4013 /* proofTelasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0573441B24326615005A4013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0573440224326613005A4013 /* proofTelas */;
+			targetProxy = 0573441A24326615005A4013 /* PBXContainerItemProxy */;
+		};
+		0573442624326615005A4013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0573440224326613005A4013 /* proofTelas */;
+			targetProxy = 0573442524326615005A4013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0573440C24326614005A4013 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0573440D24326614005A4013 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0573441124326615005A4013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0573441224326615005A4013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0573442B24326615005A4013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0573442C24326615005A4013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0573442E24326615005A4013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = proofTelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorMiyamoto.proofTelas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0573442F24326615005A4013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = proofTelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorMiyamoto.proofTelas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0573443124326615005A4013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = proofTelasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorMiyamoto.proofTelasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/proofTelas.app/proofTelas";
+			};
+			name = Debug;
+		};
+		0573443224326615005A4013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = proofTelasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorMiyamoto.proofTelasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/proofTelas.app/proofTelas";
+			};
+			name = Release;
+		};
+		0573443424326615005A4013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = proofTelasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorMiyamoto.proofTelasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = proofTelas;
+			};
+			name = Debug;
+		};
+		0573443524326615005A4013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = proofTelasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorMiyamoto.proofTelasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = proofTelas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		057343FE24326613005A4013 /* Build configuration list for PBXProject "proofTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0573442B24326615005A4013 /* Debug */,
+				0573442C24326615005A4013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0573442D24326615005A4013 /* Build configuration list for PBXNativeTarget "proofTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0573442E24326615005A4013 /* Debug */,
+				0573442F24326615005A4013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0573443024326615005A4013 /* Build configuration list for PBXNativeTarget "proofTelasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0573443124326615005A4013 /* Debug */,
+				0573443224326615005A4013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0573443324326615005A4013 /* Build configuration list for PBXNativeTarget "proofTelasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0573443424326615005A4013 /* Debug */,
+				0573443524326615005A4013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 057343FB24326613005A4013 /* Project object */;
+}
