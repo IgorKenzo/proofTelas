@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CollectionCollectionViewController.swift
 //  proofTelas
 //
 //  Created by Igor Kenzo Miyamoto Dias on 31/03/20.
@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class ViewController: UICollectionViewController {
+class CollectionCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

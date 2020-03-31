@@ -2,21 +2,27 @@
 //  ConfigViewController.swift
 //  proofTelas
 //
-//  Created by Igor Kenzo Miyamoto Dias on 30/03/20.
+//  Created by Igor Kenzo Miyamoto Dias on 31/03/20.
 //  Copyright © 2020 Igor Miyamoto. All rights reserved.
 //
 
 import UIKit
 
 class ConfigViewController: UIViewController {
-
+    
+    @IBOutlet weak var musicVol: UISlider!
+    @IBOutlet weak var soundVol: UISlider!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        musicVol.addTarget(self, action: #selector(musicVolChange), for: .valueChanged)
     }
     
-
+    @objc func musicVolChange()
+    {
+    
+    }
     /*
     // MARK: - Navigation
 
