@@ -10,8 +10,7 @@
         <!--home-->
         <scene sceneID="fNc-ts-m5C">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Z34-vN-47x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController title="home" id="Pnz-QA-dRA" sceneMemberID="viewController">
+                <viewController title="home" id="Pnz-QA-dRA" customClass="HomeViewController" customModule="proofTelas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SI9-cJ-Dgd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,9 +25,15 @@
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QJP-rA-xcj" kind="show" id="xQA-Xh-QUW"/>
+                                    <action selector="enter:" destination="Pnz-QA-dRA" eventType="touchUpInside" id="gvo-2X-GzT"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bbw-Kt-21o">
+                                <rect key="frame" x="20" y="375" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -39,21 +44,41 @@
                         <viewLayoutGuide key="safeArea" id="6ul-Zj-fg0"/>
                     </view>
                     <navigationItem key="navigationItem" id="jCL-3w-6YW"/>
+                    <connections>
+                        <outlet property="txtValor" destination="Bbw-Kt-21o" id="NgO-ap-CP4"/>
+                        <segue destination="QJP-rA-xcj" kind="show" identifier="segueDados" id="jot-27-KAg"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z34-vN-47x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="498.55072463768118" y="-60.267857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Mostra Valores View Controller-->
         <scene sceneID="CZi-xN-J6X">
             <objects>
-                <viewController id="QJP-rA-xcj" sceneMemberID="viewController">
+                <viewController id="QJP-rA-xcj" customClass="MostraValoresViewController" customModule="proofTelas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aHY-Zt-gub">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TN4-6a-fUS">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TN4-6a-fUS" firstAttribute="centerY" secondItem="aHY-Zt-gub" secondAttribute="centerY" id="pJW-mw-Wcj"/>
+                            <constraint firstItem="TN4-6a-fUS" firstAttribute="centerX" secondItem="aHY-Zt-gub" secondAttribute="centerX" id="uK5-df-1Id"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ULt-GZ-Xkp"/>
                     </view>
                     <navigationItem key="navigationItem" id="GrF-Ld-g7B"/>
+                    <connections>
+                        <outlet property="lblVal" destination="TN4-6a-fUS" id="yKK-Cs-Adi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zoc-st-sUt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
