@@ -19,11 +19,16 @@
 		0573443724326779005A4013 /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0573443624326779005A4013 /* home.storyboard */; };
 		057344392432712B005A4013 /* config.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057344382432712B005A4013 /* config.storyboard */; };
 		0573443B24328FE9005A4013 /* config2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0573443A24328FE9005A4013 /* config2.storyboard */; };
+		05C149852437B6CC00FA5D8D /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C149842437B6CC00FA5D8D /* Tutorial.storyboard */; };
+		05C149872437BA8D00FA5D8D /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C149862437BA8D00FA5D8D /* TutorialPageViewController.swift */; };
 		05E2A4BA2433B5480023C7A6 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2A4B92433B5480023C7A6 /* ConfigViewController.swift */; };
 		05E2A4BC2433D2CE0023C7A6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2A4BB2433D2CE0023C7A6 /* TableViewController.swift */; };
 		05E2A4BE2433D4600023C7A6 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2A4BD2433D4600023C7A6 /* TableCell.swift */; };
 		05E2A4C62433E87F0023C7A6 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2A4C52433E87F0023C7A6 /* CollectionViewController.swift */; };
 		05E2A4C92433EC5F0023C7A6 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2A4C82433EC5F0023C7A6 /* CustomCollectionCell.swift */; };
+		05F2FB432436938400DF259E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2FB422436938400DF259E /* DataViewController.swift */; };
+		05F2FB45243694AE00DF259E /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2FB44243694AE00DF259E /* CustomPageViewController.swift */; };
+		05F2FB472436956E00DF259E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2FB462436956E00DF259E /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,11 +67,16 @@
 		0573443624326779005A4013 /* home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = home.storyboard; sourceTree = "<group>"; };
 		057344382432712B005A4013 /* config.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = config.storyboard; sourceTree = "<group>"; };
 		0573443A24328FE9005A4013 /* config2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = config2.storyboard; sourceTree = "<group>"; };
+		05C149842437B6CC00FA5D8D /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		05C149862437BA8D00FA5D8D /* TutorialPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
 		05E2A4B92433B5480023C7A6 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		05E2A4BB2433D2CE0023C7A6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		05E2A4BD2433D4600023C7A6 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		05E2A4C52433E87F0023C7A6 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		05E2A4C82433EC5F0023C7A6 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		05F2FB422436938400DF259E /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		05F2FB44243694AE00DF259E /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
+		05F2FB462436956E00DF259E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,22 +127,16 @@
 		0573440524326613005A4013 /* proofTelas */ = {
 			isa = PBXGroup;
 			children = (
+				05C149832437B65100FA5D8D /* Storyboards */,
+				05C149822437B4A200FA5D8D /* ViewController */,
 				0573440624326613005A4013 /* AppDelegate.swift */,
 				0573440824326613005A4013 /* SceneDelegate.swift */,
-				0573440C24326614005A4013 /* Main.storyboard */,
 				0573440F24326615005A4013 /* Assets.xcassets */,
 				0573441124326615005A4013 /* LaunchScreen.storyboard */,
 				0573441424326615005A4013 /* Info.plist */,
-				0573443624326779005A4013 /* home.storyboard */,
-				057344382432712B005A4013 /* config.storyboard */,
 				0573443A24328FE9005A4013 /* config2.storyboard */,
-				05E2A4B92433B5480023C7A6 /* ConfigViewController.swift */,
-				05E2A4BB2433D2CE0023C7A6 /* TableViewController.swift */,
 				05E2A4BD2433D4600023C7A6 /* TableCell.swift */,
-				05E2A4C52433E87F0023C7A6 /* CollectionViewController.swift */,
 				05E2A4C82433EC5F0023C7A6 /* CustomCollectionCell.swift */,
-				050E8C01243545200058A33A /* HomeViewController.swift */,
-				050E8C03243546490058A33A /* MostraValoresViewController.swift */,
 			);
 			path = proofTelas;
 			sourceTree = "<group>";
@@ -153,6 +157,33 @@
 				0573442A24326615005A4013 /* Info.plist */,
 			);
 			path = proofTelasUITests;
+			sourceTree = "<group>";
+		};
+		05C149822437B4A200FA5D8D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				05F2FB44243694AE00DF259E /* CustomPageViewController.swift */,
+				05F2FB462436956E00DF259E /* BaseViewController.swift */,
+				05F2FB422436938400DF259E /* DataViewController.swift */,
+				050E8C03243546490058A33A /* MostraValoresViewController.swift */,
+				050E8C01243545200058A33A /* HomeViewController.swift */,
+				05E2A4C52433E87F0023C7A6 /* CollectionViewController.swift */,
+				05E2A4BB2433D2CE0023C7A6 /* TableViewController.swift */,
+				05E2A4B92433B5480023C7A6 /* ConfigViewController.swift */,
+				05C149862437BA8D00FA5D8D /* TutorialPageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		05C149832437B65100FA5D8D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				057344382432712B005A4013 /* config.storyboard */,
+				0573443624326779005A4013 /* home.storyboard */,
+				0573440C24326614005A4013 /* Main.storyboard */,
+				05C149842437B6CC00FA5D8D /* Tutorial.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				057344392432712B005A4013 /* config.storyboard in Resources */,
+				05C149852437B6CC00FA5D8D /* Tutorial.storyboard in Resources */,
 				0573441324326615005A4013 /* LaunchScreen.storyboard in Resources */,
 				0573441024326615005A4013 /* Assets.xcassets in Resources */,
 				0573443B24328FE9005A4013 /* config2.storyboard in Resources */,
@@ -291,9 +323,13 @@
 			files = (
 				050E8C04243546490058A33A /* MostraValoresViewController.swift in Sources */,
 				05E2A4C62433E87F0023C7A6 /* CollectionViewController.swift in Sources */,
+				05F2FB432436938400DF259E /* DataViewController.swift in Sources */,
+				05F2FB45243694AE00DF259E /* CustomPageViewController.swift in Sources */,
 				05E2A4BE2433D4600023C7A6 /* TableCell.swift in Sources */,
+				05F2FB472436956E00DF259E /* BaseViewController.swift in Sources */,
 				0573440724326613005A4013 /* AppDelegate.swift in Sources */,
 				050E8C02243545200058A33A /* HomeViewController.swift in Sources */,
+				05C149872437BA8D00FA5D8D /* TutorialPageViewController.swift in Sources */,
 				05E2A4BA2433B5480023C7A6 /* ConfigViewController.swift in Sources */,
 				05E2A4BC2433D2CE0023C7A6 /* TableViewController.swift in Sources */,
 				0573440924326613005A4013 /* SceneDelegate.swift in Sources */,
