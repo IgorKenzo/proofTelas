@@ -52,7 +52,7 @@
                                 </constraints>
                                 <state key="normal" title="Creditos"/>
                                 <connections>
-                                    <segue destination="yDt-ak-dQ7" kind="show" id="xdj-Uw-uPe"/>
+                                    <segue destination="yDt-ak-dQ7" kind="showDetail" id="xdj-Uw-uPe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIJ-gC-XFq">
@@ -248,11 +248,11 @@
             <objects>
                 <viewController id="yDt-ak-dQ7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vdq-30-wPv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creditos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQs-lS-xb9">
-                                <rect key="frame" x="174.5" y="106" width="65" height="20.5"/>
+                                <rect key="frame" x="174.5" y="18" width="65" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

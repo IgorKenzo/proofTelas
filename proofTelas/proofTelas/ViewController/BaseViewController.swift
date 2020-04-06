@@ -18,7 +18,6 @@ class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configPageViewController()
-        // Do any additional setup after loading the view.
     }
     
     
@@ -66,7 +65,7 @@ class BaseViewController: UIViewController {
             return nil
         }
         
-        dataViewController.index(ofAccessibilityElement: index)
+        //dataViewController.index(ofAccessibilityElement: index)
         dataViewController.displayText = dataSource[index]
         
         return dataViewController
@@ -85,12 +84,13 @@ extension BaseViewController : UIPageViewControllerDelegate, UIPageViewControlle
      
      func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
          
-         let dataViewController = viewController as? DataViewController
-    
+        // let dataViewController = viewController as? DataViewController
+        
          if currentViewControllerIndex == 0{
              return nil
          }
          currentViewControllerIndex -= 1
+        
          return detailViewController(index: currentViewControllerIndex)
      }
      

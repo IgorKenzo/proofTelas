@@ -49,7 +49,7 @@ class TutorialPageViewController: UIPageViewController,UIPageViewControllerDeleg
 
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
-        guard let viewControllerIndex = orderedViewControllers.index(of: viewController) else {
+        guard let viewControllerIndex = orderedViewControllers.firstIndex(of: viewController) else {
             return nil
         }
         
@@ -74,7 +74,7 @@ class TutorialPageViewController: UIPageViewController,UIPageViewControllerDeleg
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
-        guard let viewControllerIndex = orderedViewControllers.index(of: viewController) else {
+        guard let viewControllerIndex = orderedViewControllers.firstIndex(of: viewController) else {
             return nil
         }
         /*
@@ -98,7 +98,7 @@ class TutorialPageViewController: UIPageViewController,UIPageViewControllerDeleg
     
     func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
         let pageContentViewController = pageViewController.viewControllers![0]
-        self.pageControl.currentPage = orderedViewControllers.index(of: pageContentViewController)!
+        self.pageControl.currentPage = orderedViewControllers.firstIndex(of: pageContentViewController)!
     }
 
 }

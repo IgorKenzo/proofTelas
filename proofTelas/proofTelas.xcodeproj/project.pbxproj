@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050ADBE0243BC69B00FF22DB /* soviet-anthem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 050ADBDF243BC69B00FF22DB /* soviet-anthem.mp3 */; };
 		050E8C02243545200058A33A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E8C01243545200058A33A /* HomeViewController.swift */; };
 		050E8C04243546490058A33A /* MostraValoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E8C03243546490058A33A /* MostraValoresViewController.swift */; };
 		0573440724326613005A4013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573440624326613005A4013 /* AppDelegate.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050ADBDF243BC69B00FF22DB /* soviet-anthem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "soviet-anthem.mp3"; sourceTree = "<group>"; };
 		050E8C01243545200058A33A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		050E8C03243546490058A33A /* MostraValoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraValoresViewController.swift; sourceTree = "<group>"; };
 		0573440324326613005A4013 /* proofTelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proofTelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		050ADBDE243BC32C00FF22DB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				050ADBDF243BC69B00FF22DB /* soviet-anthem.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		057343FA24326613005A4013 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +137,7 @@
 		0573440524326613005A4013 /* proofTelas */ = {
 			isa = PBXGroup;
 			children = (
+				050ADBDE243BC32C00FF22DB /* Sounds */,
 				05C149832437B65100FA5D8D /* Storyboards */,
 				05C149822437B4A200FA5D8D /* ViewController */,
 				0573440624326613005A4013 /* AppDelegate.swift */,
@@ -293,6 +304,7 @@
 				057344392432712B005A4013 /* config.storyboard in Resources */,
 				05C149852437B6CC00FA5D8D /* Tutorial.storyboard in Resources */,
 				0573441324326615005A4013 /* LaunchScreen.storyboard in Resources */,
+				050ADBE0243BC69B00FF22DB /* soviet-anthem.mp3 in Resources */,
 				0573441024326615005A4013 /* Assets.xcassets in Resources */,
 				0573443B24328FE9005A4013 /* config2.storyboard in Resources */,
 				0573440E24326614005A4013 /* Main.storyboard in Resources */,

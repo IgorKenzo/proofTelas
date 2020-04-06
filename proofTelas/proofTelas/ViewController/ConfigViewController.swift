@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ConfigViewController: UIViewController {
     
@@ -15,17 +16,27 @@ class ConfigViewController: UIViewController {
     @IBOutlet weak var lblMV: UILabel!
     @IBOutlet weak var lblSV: UILabel!
     var mv = 0.0,sv = 0.0
+    var player = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         musicVol.addTarget(self, action: #selector(musicVolChange), for: .valueChanged)
         soundVol.addTarget(self, action: #selector(soundVolChange), for: .valueChanged)
-        
+        player = AVAudioPlayer()
+        do {
+            let path = Bundle.main.path(forResource: "soviet-anthem", ofType: "mp3")
+            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: path!))
+            player.play()
+        }
+        catch {
+            print(error)
+        }
         
     }
     
     @objc func musicVolChange()
     {
+        player.volume = musicVol.value
         lblMV.text = "\(musicVol.value)"
     }
     @objc func soundVolChange()
